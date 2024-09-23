@@ -98,12 +98,11 @@ footer {
 
 .visa-container {
     position: relative;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-
 }
 
 .image-wrapper {
@@ -118,12 +117,10 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
 }
 
 .text-container {
     position: relative;
-    z-index: 2;
     text-align: center;
     padding: 20px;
     color: #fff;
