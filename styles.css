@@ -1,7 +1,6 @@
 body {
     
     font-family: 'Myriad', Myriad;
-    background-image: url('stockVisa.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,3 +96,40 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+.visa-container {
+    position: relative;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.image-wrapper {
+    background-image: url(stockVisa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.text-container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background-color: grey;
+    width: 50%;
+    margin-top: -20vh;
+}
+
