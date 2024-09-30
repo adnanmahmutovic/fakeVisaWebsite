@@ -90,11 +90,28 @@ footer {
     background-color: #2E2E2E;
     color: #FFFFFF;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    font-size: 12px;
     position: fixed;
     width: 100%;
     bottom: 0;
+    z-index: 100;
 }
+
+body {
+    font-family: 'Myriad', Myriad;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 50px; /* Extra padding at the bottom to ensure content is not hidden */
+}
+
+.interactive-section {
+    padding-bottom: 30px; /* Add extra space to avoid the footer overlapping the section */
+}
+
 
 .visa-container {
     position: relative;
@@ -123,9 +140,45 @@ footer {
     position: relative;
     text-align: center;
     padding: 20px;
-    color: #fff;
-    background-color: grey;
+    color: #1A1F71;
+    background-color: #F7B600;
     width: 50%;
     margin-top: -20vh;
 }
 
+/* Existing styles here */
+
+.interactive-section {
+    padding: 20px;
+    background-color: #F7B600;
+    text-align: center;
+}
+
+.interactive-section input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #1A1F71;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.interactive-section button {
+    padding: 10px 20px;
+    background-color: #1A1F71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.interactive-section button:hover {
+    background-color: #ffffff;
+    color: #1A1F71;
+}
+
+.interactive-section p {
+    font-size: 18px;
+    color: #1A1F71;
+    margin-top: 20px;
+}
